@@ -17,3 +17,9 @@ Features:
 Facilites Page Features (Muhammad Hamdi)
 ----------------------------------------------
 1. Toggle Element Visiblity using Javascript (https://www.w3schools.com/jsref/prop_style_visibility.asp and https://stackoverflow.com/questions/36772129/image-visibility-using-javascript)
+
+
+Facilites Page Features (Muhammad Daniel)
+----------------------------------------------
+1. Responsive Navbar with Dropdown (https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp)
+2. Embedded Google Maps (https://developers.google.com/maps/documentation/embed/embedding-map)
