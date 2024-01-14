@@ -17,6 +17,7 @@ Features:
 2. Image Hover Overlay CSS(https://www.w3schools.com/howto/howto_css_image_overlay.asp)
 3. Scroll Back To Top Button Javascript (https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
 4. Embedded Youtube Video (https://youtu.be/JpoPn1Skp1A?si=Ql7lXbKoEs_AI5Cl)
+5. Google Font for titles (https://fonts.google.com/specimen/Handlee?query=Handlee)
 
 Facilites Page Features (Muhammad Hamdi)
 ----------------------------------------------
