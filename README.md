@@ -6,6 +6,9 @@ Team Members:
 3. Muhammad Daniel 2218857
 4. Muhammad Hamdi 2215983
 
+Responsive Nav Bar & Drop Down Feature (Muhammad Daniel)
+----------------------------------------------
+1.Responsive Navbar with Dropdown (https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp)
 
 News And Announcement Page Features (Aizuddin Ishqal)
 ----------------------------------------------
@@ -21,5 +24,4 @@ Facilites Page Features (Muhammad Hamdi)
 
 About Us (including drop down) Page Features (Muhammad Daniel)
 ----------------------------------------------
-1. Responsive Navbar with Dropdown (https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp)
-2. Embedded Google Maps (https://developers.google.com/maps/documentation/embed/embedding-map)
+1. Embedded Google Maps (https://developers.google.com/maps/documentation/embed/embedding-map)
