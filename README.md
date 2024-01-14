@@ -22,6 +22,6 @@ Facilites Page Features (Muhammad Hamdi)
 1. Toggle Element Visiblity using Javascript (https://www.w3schools.com/jsref/prop_style_visibility.asp and https://stackoverflow.com/questions/36772129/image-visibility-using-javascript)
 
 
-About Us (including drop down) Page Features (Muhammad Daniel)
+About Us (Map Location) Page Features (Muhammad Daniel)
 ----------------------------------------------
 1. Embedded Google Maps (https://developers.google.com/maps/documentation/embed/embedding-map)
