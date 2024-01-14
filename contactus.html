@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactus.css">
+    <title>Contact Us - Mahallah Ali</title>
+</head>
+<body>
+
+    <header>
+        <h1>Mahallah Ali</h1><br>
+    </header>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#news">News</a>
+        <a href="#chart">Chart</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us with any questions or inquiries.</p>
+
+        <form action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <div class="social-icons">
+            <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+            <a href="https://discord.gg/yourserver" target="_blank"><img src="Discord.png" alt="Discord"></a>
+            <a href="https://wa.me/1234567890" target="_blank"><img src="Whatsapp.png" alt="WhatsApp"></a>
+            <a href="mailto:your@email.com"><img src="Email.png" alt="Email"></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Jodan Inc. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

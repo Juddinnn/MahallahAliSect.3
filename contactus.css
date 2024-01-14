@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('Image4.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+nav {
+    background-color: #4F6F52;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #86A789;
+}
+
+section {
+    background-size: cover;
+    padding: 50px;
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(210, 227, 200, 0.5);
+}
+
+h2,
+p {
+    position: relative;
+    z-index: 1;
+    padding: 0px;
+    color: #fff;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4F6F52;
+    color: #fff;
+    cursor: pointer;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 40px; 
+    height: 40px; 
+}
