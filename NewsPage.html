@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        News Page
+    </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Recursive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="NewsPage.css">
+
+</head>
+
+<body id="main-body">
+    <div class="topnav">
+        <img src="/Images/Logo.jfif" class="logo">
+
+        <a href="Facilities.html">Facilities & Services</a>
+		<a href="#contactus">Contact us</a>
+        <a href="NewsPage.html">News</a>
+
+
+        <div class="dropdown">
+            <button class="dropbtn">About Us
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="aboutus.html">Overview</a>
+                <a href="mahallahteams.html">MRC Team</a>
+                <a href="maplocation.html">Map Location</a>
+            </div>
+        </div>
+
+        <a href="HomePage.html">Welcome</a>
+    </div>
+
+    <section class="header">
+        <div class="topcontent">
+
+            <h1>News And Annoucement</h1>
+            <br><br>
+            <h2>MAHALLAH ALI</h2>
+            <a href="#newspage" class="details-btn">Explore News!</a>
+
+            <div class="header-vid">
+                <p>Latest Event</p>
+                <iframe width="300" height="300" src="https://www.youtube.com/embed/JpoPn1Skp1A?si=Zu3QaL2bMwYBs6K2"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="content-container">
+        <div class="titlenews" id="newspage">
+            <h1>News & Annoucement</h1>
+        </div>
+
+        <div class="flex-container">
+
+            <div class="leftcontent">
+                <br>
+                <img src="/Images/Speaker_Icon.png" class="miclogo">
+                <h1>What's Going on In Mahallah Ali?</h1>
+                <br><br><br>
+                <h2>
+                    #MRCAliLeadingTheWay
+                    <br>
+                    #MRCAliCareForYou
+                </h2>
+
+
+            </div>
+
+            <div class="slideshow">
+
+
+                <div class="mySlides">
+                    <img src="/Images/MegaBersih.png" class="NewsPic">
+                    <div class="overlay">
+                        <div class="text">
+                            This program is to ensure the cleanliness of our musolla suitable with Islamic teaching.
+                            This
+                            gotong-royong was help by kind hearted Mahallah Ali residents that was help on 19th March
+                            2022
+                        </div>
+                    </div>
+                    <div class="Caption">
+                        ❗MEGA BERSIH MUSOLLA ALI FOR 22/23 OPEN❗
+                    </div>
+                </div>
+
+
+                <div class="mySlides">
+                    <img src="/Images/BuburLambukDistribution.png" class="NewsPic">
+                    <div class="overlay">
+                        <div class="text">
+                            This is our program during Ramadhan 2022 to practice charity activity among the IIUM
+                            community.
+                            This program was successfully organized by 5 organizations in IIUM. </div>
+                    </div>
+                    <div class="Caption">
+                        📢BUBUR LAMBUK DISTRIBUTION FOR ALL RESIDENTS AND PUBLIC📢
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <img src="/Images/RecruitingMRC.png" class="NewsPic">
+                    <div class="overlay">
+                        <div class="text">
+                            ‼️We are here to announce <br>that MRC of Mahallah Ali is <br>scouting for new members for <br>the next
+                            tenure‼️<br>
+                            🔹🔸 If you are interested, you <br>can fill up the Google Form below:<br>
+                            🔸🔹https://bit.ly/mrcalirecruitment22
+                        </div>
+                    </div>
+                    <div class="Caption">
+                        🚨MRC MAHALLAH ALI RECRUITMENT 22/23 IS NOW OPENED🚨
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <img src="/Images/welcomingstudent.png" class="NewsPic">
+                    <div class="overlay">
+                        <div class="text">
+                            📆 *Saturday, 15 October 2022* 🕗 *8.30 pm - 10.00 pm*
+                            📍 *Musolla Mahallah Ali Ibn Abi Talib*
+                            *COMPULSORY TO <br>FIRST YEAR STUDENT*
+                        </div>
+                    </div>
+                    <div class="Caption">
+                        ✨MAHALLAH ALI WELCOMING NEW STUDENTS 22/23✨
+                    </div>
+                </div>
+
+                <div class="mySlides">
+                    <img src="Images/eidaladhamubarakali.png" class="NewsPic">
+                    <div class="overlay">
+                        <div class="text">
+                            Assalammualaikum,
+                            We would like to wish a happy Eid Al-Adha Mubarak to all residents of Mahallah Ali.
+                        </div>
+                    </div>
+                    <div class="Caption">
+                        📣WISHING EID MUBARAK TO ALL OF OUR RESIDENTS📣
+                    </div>
+                </div>
+
+                <button class="buttonslideshow1" onclick="plusDivs(-1)">&#10094; </button>
+                <button class="buttonslideshow2" onclick="plusDivs(1)">&#10095;</button>
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 International Islamic University(IIUM). All rights reserved.</p>
+    </footer>
+
+    <script>
+    //This is image slider script for left
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+    </div>
+
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</body>
+
+</html>
