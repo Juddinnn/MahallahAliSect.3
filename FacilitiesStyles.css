@@ -78,10 +78,12 @@ header {
     color: white;
 }
 
-.logo {
-    height: 50px;
-    /* Adjust this to fit your logo size */
-}
+.logoiium{
+    height: auto;
+    left: 0px;
+    width: 45px;
+    z-index: -1;
+  }
 
 
 .dropdown {
