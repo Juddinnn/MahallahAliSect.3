@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactus.css">
+    <script src="contactus.js"></script>
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="topnav">
+        <img src="image/logoalicontactus.png" class="logoiium">
+       
+        <a href="Facilities.html">Facilities & Services</a>
+        <a href="contactus.html">Contact us</a>
+        <a href="NewsPage.html">News</a>
+    
+        <div class="dropdown">
+            <button class="dropbtn">About Us 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="aboutus.html">Overview</a>
+              <a href="mahallahteams.html">MRC Team</a>
+              <a href="maplocation.html">Map Location</a>
+            </div>
+        </div> 
+
+        <a href="HomePage.html">Welcome</a>
+    </div>
+
+    <div class="contact-container">
+        <h2 class="contact-heading">CONTACT US</h2>
+        <p></p>
+
+        <div class="contact-info">
+            <p>Get in touch with our platforms:</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/mahallah.ali?igsh=cmY3eWlpcmt1b3dp " target="_blank"><img src="Instagram.png" alt="Instagram"></a>
+                <a href="https://wa.me/601158719525" target="_blank"><img src="Whatsapp.png" alt="WhatsApp"></a>
+                <a href="https://discord.gg/" target="_blank"><img src="Discord.png" alt="Discord"></a>
+                <a href="mailto:mahallahali@email.com"><img src="Email.png" alt="Email"></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form action="submit_form.php" method="post">
+                <label for="username">Name:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="complaints">Complaints:</label>
+                <textarea id="complaints" name="complaints" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
