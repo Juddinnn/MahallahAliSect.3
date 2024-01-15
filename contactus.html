@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contactus.css">
-    <script src="contactus.js"></script>
+  
     <title>Contact Us</title>
 </head>
 <body>
@@ -43,22 +43,20 @@
             </div>
         </div>
 
-        <div class="contact-form">
-            <form action="submit_form.php" method="post">
-                <label for="username">Name:</label>
-                <input type="text" id="username" name="username" required>
-                
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" required>
-                
-                <label for="complaints">Complaints:</label>
-                <textarea id="complaints" name="complaints" rows="4" required></textarea>
-                
-                <button onclick="callUs()">Submit</button>
-            </form>
-        </div>
+        <form id="contact-form" method="post">
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="complaints">Complaints:</label>
+            <textarea id="complaints" name="complaints" rows="4" required></textarea>
+            
+            <button type="button" onclick="callUs()">Submit</button>
+        </form>
     </div>
-
+    <script src="contactus.js"></script>
 
 </body>
 </html>
