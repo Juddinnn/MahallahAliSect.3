@@ -2,7 +2,7 @@ html,body {
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('image/contactusbg.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('Images/contactusbg.jpg') center/cover no-repeat;
     color: #fff;
     min-height: 100vh; 
     display: flex;
